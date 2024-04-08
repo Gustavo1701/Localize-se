@@ -32,8 +32,13 @@ function error(err){
     console.log(err);
 }
 
+function sair() {
+    localStorage.removeItem("token");
+    localStorage.removeItem("userLogado");
+    window.location.href = "../../../index.html";}
 
 var watchID = navigator.geolocation.watchPosition(success, error, {
     enableHighAccuracy: true, //enablehigth é uma função de mais precisão
     timeout: 5000 // timeout é a função de tempo de espera que o navegador deve ter
 });
+

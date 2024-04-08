@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+    href="./assets/IMG/geolocalizacao.jpg"/>
+    <link rel="stylesheet" href="./assets/css/index.css" />
     
     <title>Localize-se</title>
 </head>
 <body>
-    
+    <br><br>
     <h1>
         Bem vindo ao Localize-se!
     </h1>
@@ -18,9 +22,19 @@
         <br>
         <br>
     </p>
-    <a href="localizacao/localizacao.html">
-    <button name="botao-localizacao" type="button">Localize-se</button>
+    <h1 id="logado"></h1>
+    <a href="/assets/html/signin.html">
+        <div class="justify-center">
+            <button onclick="Sair()">Localize-se</button>
+        </div>
+    
     </a>
+
+    <div class="justify-center">
+        <button onclick="sair()">Sair</button>
+    </div>
+    
+    <script src="./assets/js/index.js"></script>
 
 </body>
 </html>

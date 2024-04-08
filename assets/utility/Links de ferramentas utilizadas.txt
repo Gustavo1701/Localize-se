@@ -1,0 +1,2 @@
+Biblioteca de mapa: https://leafletjs.com/ 
+Git de exemplo de Login e cadastro: https://github.com/codethi/signin-signup-jsvanilla

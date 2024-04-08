@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +11,24 @@
      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
+     <link rel="stylesheet" href="../../css/localicao.css" />
     <title>Localização</title>
-    <style> 
-           #map { 
-            height: 300px; } 
-    </style>
+   
 </head>
 <body>
     <h1>Essa é sua localização!</h1>
     <p id="latitude"></p>
     <p id="longitude"></p>
     <div id="map"></div>
-    <script src="./script.js"></script>    
+
+    <div class="justify-center">
+        <button onclick="sair()">Sair</button>
+    </div>
+    
+    <style> 
+        #map { 
+         height: 400px; } 
+    </style>
+    <script src="../../js/script.js"></script> 
 </body>
 </html>
